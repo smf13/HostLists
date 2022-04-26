@@ -1,0 +1,16 @@
+#Apple Private Relay
+||dns.google^$dnsrewrite=NXDOMAIN;;
+||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-canary.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask.apple-dns.net^$dnsrewrite=NXDOMAIN;;
+||canary.mask.apple-dns.net^$dnsrewrite=NXDOMAIN;;
+||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-t.apple-dns.net^$dnsrewrite=NXDOMAIN;;
+||mask-api.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;
+||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;
+
+#Mullvad DoH
+@@|doh.mullvad.net^$important
+@@|adblock.doh.mullvad.net^$important
