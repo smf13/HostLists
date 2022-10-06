@@ -1,4 +1,5 @@
-#Apple Private Relay
+#Apple Private Relay 
+#Updated 2022-10-6
 ||dns.google^$dnsrewrite=NXDOMAIN;;
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
 ||mask-canary.icloud.com^$dnsrewrite=NXDOMAIN;;
@@ -10,6 +11,9 @@
 ||mask-api.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;
 ||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;
 ||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;
+||pancake.apple.com^$dnsrewrite=NXDOMAIN;;
+||pancake.cdn-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;
+||pancake.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;
 
 #Mullvad DoH
 @@|doh.mullvad.net^$important
