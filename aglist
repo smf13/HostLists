@@ -15,6 +15,3 @@
 ||pancake.cdn-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;
 ||pancake.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;
 
-#Mullvad DoH
-@@|doh.mullvad.net^$important
-@@|adblock.doh.mullvad.net^$important
